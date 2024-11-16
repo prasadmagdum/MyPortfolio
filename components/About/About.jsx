@@ -17,9 +17,25 @@ const About = () => {
             <p>
               I'm currently pursuing my engineering degree at Bharati Vidyapeeth College of Engineering, Kolhapur, where I'm learning "computer science & engineering (Artificial Intelligence & Machine Learning).
             </p>
-            <p>
-              You can reach me via <a href="mailto:prasadmagdum307@gmail.com">email at prasadmagdum307@gmail.com</a> or <a href="https://www.linkedin.com/in/your-profile-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
-            </p>
+            <p style={{ color: '#FFFFFF' }}>
+You can reach me via 
+  <a 
+    href="mailto:prasadmagdum307@gmail.com" 
+    style={{ color: '#DA7C25' }}
+  >
+    email at prasadmagdum307@gmail.com
+  </a> 
+  or 
+  <a 
+    href="https://www.linkedin.com/in/prasad-magdum-735b13255/" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    style={{ color: '#E59440' }}
+  >
+    LinkedIn
+  </a>.
+</p>
+
           </div>
           <div className="about-skills">
             <div className="about-skill"><p>Advanced & Core Python</p><hr style={{ width: "50%" }} /></div>
