@@ -1,10 +1,10 @@
 import React, { useRef, useState } from 'react'
 import  './Navbar.css'
 import logo from '../../assets/logo.jpg'
-import underline from '../../assets/underline.jpg'
+import underline from '../../assets/underline.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import menu_open from '../../assets/openmenu.jpg'
-import menu_close from '../../assets/menuclose.jpg'
+import menu_open from '../../assets/openmenu.svg'
+import menu_close from '../../assets/menuclose.svg'
 
 
 const Navbar = () => {
@@ -27,7 +27,7 @@ const Navbar = () => {
         <img src={menu_open} onClick={openMenu} alt=""className='nav-mob-open'/>
         <h1>Welcome to Prasad Site</h1>
         <ul ref={menuRef} className="nav-menu">
-          <img src={menu_close} onClick={closeMenu} alt="" className="nav-mob-colse" />
+          <img src={menu_close} onClick={closeMenu} alt="Close Menu"  className="nav-mob-close" />
             <li><AnchorLink className='anchor-link'href='#home'><p onClick={()=>setMenu("home")}>Home </p></AnchorLink>{menu==="home"?<img src={underline} alt='' />:<></>}</li>
             <li><AnchorLink className='anchor-link'offset={50} href='#about'><p onClick={()=>setMenu("about")}>About Me </p></AnchorLink>{menu==="about"?<img src={underline} alt='' />:<></>}</li>
             <li><AnchorLink className='anchor-link'offset={50} href='#activity'><p onClick={()=>setMenu("activity")}>Activity</p></AnchorLink>{menu==="activity"?<img src={underline} alt='' />:<></>}</li>
