@@ -160,14 +160,15 @@ h1:hover {
         color: #DA7C25;
         cursor: pointer;
     }
-
-    .nav-mob-close {
+    
+    .nav-mob-close{
         display: block;
         position: absolute;
         top: 20px;
-        right: 20px;
+        right: 130px;
         font-size: 24px;
         color: #DA7C25;
         cursor: pointer;
     }
 }
+
