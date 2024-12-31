@@ -1,13 +1,13 @@
 .contact {
-  padding: 60px 20px; 
-  background: linear-gradient(135deg, #525355, #6a6e6f); /* Gradient background */
+  padding: 20px 5px; 
+  background: linear-gradient(135deg, #333, #444);
   color: #100f0f; 
   display: flex; 
   flex-direction: column; 
   align-items: center; 
   gap: 40px; 
   margin: 60px auto; 
-  border-radius: 10px; 
+  border-radius: 50px; 
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
   transition: background-color 0.5s; 
 }
