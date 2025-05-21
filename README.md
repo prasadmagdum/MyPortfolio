@@ -37,7 +37,7 @@ Follow these steps to set up the project locally:
 Clone the Repository:
 bash
 Copy code
-git clone https://github.com/your-username/portfolio-site.git
+git clone https://github.com/prasadmagdum/MyPortfolio/edit/main/
 Navigate to the Project Directory:
 bash
 Copy code
