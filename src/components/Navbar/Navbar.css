@@ -1,0 +1,178 @@
+/* General Navbar Styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #333;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    position: relative;
+    z-index: 3;
+}
+
+/* Logo and Mobile Menu Icon */
+.navbar img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+/* Hover effect with rotation and scaling */
+.navbar img:hover {
+    transform: rotate(15deg) scale(1.1);
+    filter: brightness(1.2);
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    color: #DA7C25;
+    animation: pulse 3s ease-in-out infinite;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Keyframe animation for a gentle pulsating effect */
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+/* Hover effect */
+h1:hover {
+    color: #E59440;
+    transform: scale(1.1);
+}
+
+/* Nav Menu */
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;   
+    gap: 40px;
+    list-style: none;
+    transition: right 0.5s ease;
+    margin: 0;                 /* Remove default list spacing */
+    padding: 0;
+}
+
+/* Menu Items */
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.nav-menu li:hover {
+    color: #DA7C25;
+}
+
+.nav-menu li img {
+    height: 4px;
+    width: 30px;
+    transition: transform 0.3s ease;
+}
+
+/* Anchor Links */
+.anchor-link {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.anchor-link:hover {
+    color: #DA7C25;
+}
+
+/* Connect Button */
+.nav-connect {
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923 102.06%);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.4s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.nav-connect:hover {
+    transform: scale(1.05);
+    background: linear-gradient(267deg, #E59440 0.36%, #C8463B 102.06%);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Mobile Menu */
+.nav-mob-open, .nav-mob-close {
+    display: none;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 15px 20px;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: -350px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        background-color: #1f1f1f;
+        width: 300px;
+        height: 100vh;
+        z-index: 2;
+        box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .nav-menu.show {
+        right: 0;
+    }
+
+    .nav-menu li {
+        font-size: 22px;
+        padding: 20px 0;
+    }
+
+    .nav- {
+        display: none;
+    }
+
+    .nav-mob-open {
+        display: block;
+        position: fixed;
+        right: 20px;
+        top: 20px;
+        z-index: 3;
+        font-size: 24px;
+        color: #DA7C25;
+        cursor: pointer;
+    }
+    
+    .nav-mob-close{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 130px;
+        font-size: 24px;
+        color: #DA7C25;
+        cursor: pointer;
+    }
+}
