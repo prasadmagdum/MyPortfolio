@@ -98,10 +98,10 @@
 /* Mobile responsiveness */
 @media (max-width: 768px) {
   .activity {
-    margin: 40px 20px;
-    border-radius: 30px;
-    gap: 40px;
-    padding: 30px 20px;
+    margin: 20px 5px;
+    border-radius: 40px;
+    gap: 20px;
+    padding: 15px 5px;
   }
 
   .activity-title h1 {
@@ -110,7 +110,7 @@
 
   .activity-images {
     grid-template-columns: 1fr;
-    gap: 30px;
+    gap: 20px;
     animation: none;
     opacity: 1;
   }
