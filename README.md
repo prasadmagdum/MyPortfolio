@@ -1,3 +1,12 @@
-#Personal Portfolio Website
-Welcome to my Personal Portfolio Website, built with React! This site showcases my skills, experience, and achievements, allowing visitors to connect with me and explore my professional journey.
+This is my previous personal portfolio website, created before moving to React.js. It showcases my projects, skills, and achievements in a simpler design.
 
+Features
+Static responsive website
+About Me section
+Skills and projects list
+Contact information
+
+Tech Stack: 
+Frontend: HTML5, CSS3, JavaScript
+Styling: Bootstrap / Custom CSS
+Hosting: GitHub Pages
