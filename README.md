@@ -10,3 +10,5 @@ Tech Stack:
 Frontend: HTML5, CSS3, JavaScript
 Styling: Bootstrap / Custom CSS
 Hosting: GitHub Pages
+
+![image](https://github.com/prasadmagdum/MyPortfolio/blob/221f7f3d6179c7f24a2dec2e07a3826cd53cbc96/Screenshot%202025-08-25%20132303.png)
